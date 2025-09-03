@@ -1,0 +1,11 @@
+import pandas as pd
+df= pd.read_csv('d:\Class_IIMS_Year1\Python\Scripts\data.csv')
+print(df)
+new_df=df.dropna()
+print(new_df)
+
+
+import pandas as pd
+df=pd.read_csv('d:\Class_IIMS_Year1\Python\Scripts\data.csv')
+df.fillna(130,inplace='true')
+
